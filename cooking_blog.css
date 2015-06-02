@@ -1,0 +1,89 @@
+.header {
+	background-image: url("file:///Users/amandacross/Documents/wdi/website/images/DSC_1144.JPG");
+	width: 750px;
+	max-width: 100%;
+	background-size: 100%;
+	margin-left: auto;
+	text-align: center;
+	margin-right: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #FAF0E6;
+	margin-top: 0px;
+	padding: 100px;
+	min-width: 100%;
+	overflow: hidden;
+}
+
+.sidebar {
+	clear: both;
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 100px;
+	height: 1000px;
+	float: left;
+	background-color: white;
+}
+
+.right_sidebar {
+	
+	display: inline;
+	margin-right: 100px;
+	margin-top: 100px;
+	height: 1000px;
+	float: right;
+	background-color: white;
+}
+
+body{
+	background-color: #FAF0E6;
+	background-size: 200%;
+	background-repeat: repeat-y;
+}
+
+header{
+	text-align: center;
+	padding: 30px 0px 30px 0px;
+}
+
+a{
+	color: white;
+}
+
+ul{
+	list-style-type: none;
+
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 20px;
+}
+
+li{
+
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.main {
+	font-family: Futura, sans-serif;
+	color: black;
+	line-height: 35px;
+	margin: 100px auto;
+	padding: 100px;
+	width: 350px;
+	font-size: 19px;
+	background-color: white;
+	background-position: 25%;
+	text-align: justify;
+	
+}
+
+.main img {
+	margin-top: 40px;
+	margin-right: 100px;
+	margin-left: 0px;
+	margin-bottom: 40px;
+}
