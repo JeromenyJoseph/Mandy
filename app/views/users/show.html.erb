@@ -1,0 +1,10 @@
+<h1><%= @user.username %></h1>
+
+<%= image_tag @user.image.url(:medium) %>
+
+<section>
+	<h3><%= @user.username %>'s Details</h3>
+	<ul>
+		<li><%= @user.fname %> <%= @user.lname %> </li>
+	</ul>	
+</section>

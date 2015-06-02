@@ -1,0 +1,19 @@
+<h1>Sign up Below!</h1>
+
+<%= form_for @chirp do |f| %>
+	<% if @chirp.errors.any? %>
+		<% @chirp.erros.full_messages.each do |error| %>
+			<p><%= error %></p>
+		<% end %>
+	<% end %>
+
+	<div>
+		<%= f.text_area :body, placeholder: 'Write your chirp here?' %>
+	</div>
+
+	<div>
+		<%= f.submit "Chirp!" %>
+	</div>
+
+
+<% end %>
