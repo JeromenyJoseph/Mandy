@@ -1,4 +1,4 @@
-<h1>Sign up Below!</h1>
+<h1>Post!</h1>
 
 <%= form_for @chirp do |f| %>
 	<% if @chirp.errors.any? %>
@@ -8,11 +8,11 @@
 	<% end %>
 
 	<div>
-		<%= f.text_area :body, placeholder: 'Write your chirp here?' %>
+		<%= f.text_area :body, placeholder: 'Post here?' %>
 	</div>
 
 	<div>
-		<%= f.submit "Chirp!" %>
+		<%= f.submit "Post" %>
 	</div>
 
 
